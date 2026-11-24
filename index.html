@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avantika Sahu</title>
+  <meta name="description" content="Avantika Sahu, CSE undergrad building backend systems and open-source contributions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+  <div class="wrap">
+
+    <header class="nav">
+      <a href="#" class="name">Avantika Sahu</a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#opensource">Open source</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="hero">
+      <p class="status"><span class="dot"></span>Open to internships</p>
+      <h1>Hi, I'm Avantika. I build <em>backend systems</em> and the logic that runs them.</h1>
+      <p class="lead">
+      CSE undergrad, graduating 2028. I've worked on simulations, auth and CI for team products, and I contribute to open source.</p>
+      <p class="hero-links">
+        <a href="resume.pdf" target="_blank">Resume ↗</a>
+        <a href="https://github.com/avantiika-tech" target="_blank">GitHub ↗</a>
+        <a href="https://linkedin.com/in/avantika-sahu/" target="_blank">LinkedIn ↗</a>
+      </p>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2 class="label">About</h2>
+      <div>
+        <p>
+          I learn by building. Most of my work is on the backend: designing APIs, writing the
+          scoring and optimization logic behind a product, securing it, and adding the tests and CI
+          that keep it working. I like team projects where I own a clear piece end to end.
+          Right now I'm going deeper into Java and data structures & algorithms.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="label">Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt><dd>Python, Java, TypeScript, JavaScript, SQL</dd>
+        <dt>Backend</dt><dd>FastAPI, Node.js, Express, PostgreSQL, SQLAlchemy, JWT auth</dd>
+        <dt>Frontend</dt><dd>React, Tailwind CSS</dd>
+        <dt>Tooling</dt><dd>Git, GitHub Actions, pytest</dd>
+      </dl>
+    </section>
+
+    <!-- WORK -->
+    <section id="work">
+      <h2 class="label">Selected work</h2>
+      <div>
+
+        <article class="project">
+          <div class="project-head">
+            <h3><a href="https://github.com/Shalini828/rasoigrid" target="_blank">RasoiGrid ↗</a></h3>
+            <span class="meta">Team · 5 merged PRs</span>
+          </div>
+          <p>Gets surplus food from kitchens to NGOs before it spoils. I wrote the priority scoring
+             (0–100, from quantity, time to expiry and distance), volunteer matching, handover-code
+             delivery checks, migrations, CI and notifications.</p>
+          <p class="stack">FastAPI · PostgreSQL · React · TypeScript</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3><a href="https://github.com/jaiswalsakshaum-droid/enersense-mockup" target="_blank">EnerSense ↗</a></h3>
+            <span class="meta">Team · 37 of 53 commits</span>
+          </div>
+          <p>Energy monitoring for manufacturing plants. I built most of the backend: machine
+             health scores that explain themselves, an alert engine, production optimization that
+             accounts for machine health and energy prices, a process simulation, JWT auth, tests and CI.</p>
+          <p class="stack">FastAPI · PostgreSQL · pytest · React</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3><a href="https://github.com/avantiika-tech/ChangePilot" target="_blank">ChangePilot ↗</a></h3>
+            <span class="meta">Co-built</span>
+          </div>
+          <p>Helps migrate Python code when an API changes. It compares two OpenAPI specs to find
+             breaking changes, finds the affected calls in a codebase, and checks proposed
+             patches against safety rules before review.</p>
+          <p class="stack">Python · OpenAPI · pytest</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3><a href="https://github.com/avantiika-tech/repomind-ai" target="_blank">RepoMind AI ↗</a></h3>
+            <span class="meta">Team · backend</span>
+          </div>
+          <p>Analyses any GitHub repository with AI. I built the import pipeline: GitHub API
+             integration, recursive file-tree fetching, URL parsing and request timeouts.</p>
+          <p class="stack">Node.js · Express · Octokit · Claude API</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- OPEN SOURCE -->
+    <section id="opensource">
+      <h2 class="label">Open source</h2>
+      <div>
+        <p>Merged pull requests in <a class="inline" href="https://github.com/kestra-io/kestra" target="_blank">Kestra</a>,
+           an open-source workflow orchestration platform.</p>
+        <ul class="prs">
+          <li><span class="num">#22684</span><a href="https://github.com/kestra-io/kestra/pull/22684" target="_blank">Unit tests for MixinTask helpers</a></li>
+          <li><span class="num">#22616</span><a href="https://github.com/kestra-io/kestra/pull/22616" target="_blank">Unit test for FilterEditPopover</a></li>
+          <li><span class="num">#22347</span><a href="https://github.com/kestra-io/kestra/pull/22347" target="_blank">Unit test for SchemaSection</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="label">Contact</h2>
+      <div>
+        <p class="contact-line">Hiring for an internship, or building something interesting?</p>
+        <a class="email" href="mailto:avantikasahu40@gmail.com">avantikasahu40@gmail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> Avantika Sahu</span>
+      <a href="#">Back to top ↑</a>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
